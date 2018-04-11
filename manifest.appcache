@@ -1,0 +1,21 @@
+CACHE MANIFEST
+# Version 1.0
+# Date: 01-01-2000
+
+CACHE:
+*.html 
+../style/*.css
+../style/precompiler/**/*.less
+../style/precompiler/**/*.sass
+../style/precompiler/**/*.scss
+../style/precompiler/**/*.styl
+../script/*.js
+../script/*.json
+../script/precompiler/**/*.coffee
+../favicon.ico
+
+FALLBACK:
+offline.html
+
+NETWORK:
+*.php
